@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector Example</title>
+    <style>
+        ul ~ p{
+            font-style: italic;
+        }
+
+        .of{
+            overflow:hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            word-break: break-all;
+        }
+        input{
+           background-color:rgb(241, 241, 255);
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Selector Example</h1>
+    <h2 style="color:red;">Lorem Ipsum</h2>
+    <h4 style="color:crimson; font-style:italic;">이 요소는 단락 요소 입니다. 글자의 색 이름은 'crimson'입니다. font-style은 이탤릭입니다.</h4>
+    <p>이 요소는 단락 요소 입니다.1</p>
+    <p>이 요소는 단락 요소 입니다.2</p>
+    <p>이 요소는 단락 요소 입니다.3</p>
+    <ul>
+        <li>unordered list 입니다. ul -> li의 구조를 가집니다. 1</li>
+        <li>unordered list 입니다. ul -> li의 구조를 가집니다. 2</li>
+        <li>unordered list 입니다. ul -> li의 구조를 가집니다. 3</li>
+    </ul>
+    <p>이 요소는 단락 요소 입니다.4</p>
+    <p>이 요소는 단락 요소 입니다.5</p>
+    <p>이 요소는 단락 요소 입니다.6</p>
+    <div style="background-color: rgb(236, 236, 236);">Div container</div>
+    <p class="of">단락요소입니다. 구글에 "css 텍스트 ... 처리"를 검색해서 적용해보세요 width=100%를 적용해보세요!</p>
+    <p class="of">단락요소입니다. 구글에 "css 텍스트 ... 처리"를 검색해서 적용해보세요 width=100%를 적용해보세요!</p>
+    <p class="of">단락요소입니다. 구글에 "css 텍스트 ... 처리"를 검색해서 적용해보세요 width=100%를 적용해보세요!</p>
+    <input type="text" placeholder="Enter text here..."> <a href ="#">Link example</a>
+</body>
+</html>

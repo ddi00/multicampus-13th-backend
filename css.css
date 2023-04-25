@@ -1,0 +1,15 @@
+.bigtitle ~ div{
+  color:blue;
+  font-weight:600;
+}
+.bigtitle {
+    font-size: 20px;
+  }
+
+  .intro{
+    background-color: yellow;
+  }
+
+  #id1{
+    background-color: pink;
+  }
